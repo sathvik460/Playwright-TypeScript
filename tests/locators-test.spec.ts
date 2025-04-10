@@ -23,6 +23,6 @@ test('Different types of locators', async({page})=>{
   // getByTitle
 
   await page.goto('https://www.google.com/');
-  await page.getByTitle('Search').first().fill('playwright');
+  await page.getByTitle('Search').fill('playwright');
 
 })
